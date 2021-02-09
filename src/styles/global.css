@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+}
+
+.get__started__btn {
+    background-color: rgba(0, 0, 255, 1);
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 255, 0.5);
+  }
+  
+  .get__started__btn:hover {
+    background-color: rgba(0, 0, 255, 0.9);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 255, 0.5);
+  }
+  
