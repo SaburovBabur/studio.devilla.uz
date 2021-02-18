@@ -16,41 +16,41 @@ function WorkedCompanies() {
       </div>
 
       <div className="companies flex items-center justify-evenly mb-12">
-        <div className="company w-10 md:w-16">
+        <div className="company w-10   md:w-16">
           <a href="#">
             <img
               src={logo}
               alt="company"
-              className="company__logo w-10 md:w-16"
+              className="company__logo w-10  md:w-16"
             />
           </a>
         </div>
-        <div className="company w-10 md:w-16">
+        <div className="company w-10   md:w-16">
           <a href="#">
             <img
               src={lock}
               alt="company"
-              className="company__logo w-10 md:w-16"
+              className="company__logo w-10  md:w-16"
             />
           </a>
         </div>
 
-        <div className="company w-10 md:w-16">
+        <div className="company w-10   md:w-16">
           <a href="#">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Apple_Computer_Logo_rainbow.svg/879px-Apple_Computer_Logo_rainbow.svg.png"
               alt="company"
-              className="company__logo w-10 md:w-16"
+              className="company__logo w-10  md:w-16"
             />
           </a>
         </div>
 
-        <div className="company w-10 md:w-16">
+        <div className="company w-10   md:w-16">
           <a href="#" className="company">
             <img
               src="https://epcenergy.uz/@assets/img/logo.jpg"
               alt="company"
-              className="company__logo w-10 md:w-16 "
+              className="company__logo w-10  md:w-16 "
             />
           </a>
         </div>

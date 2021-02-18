@@ -7,7 +7,7 @@ function Main() {
     <section className="get__started px-5 md:px-20 w-full | flex items-center justify-center overflow-x-hidden">
       <div className="get__started__text md:w-5/12 flex flex-col items-center justify-center md:inline-block">
         <h1 className="text-5xl leading-loose font-bold tracking-wide">
-          <span className="text-blutter">IT studio</span>
+          <span className="text-blutter">Nodir LOX</span>
         </h1>
         <div className="get__started__illustartion | w-3/4 md:w-7/12 md:hidden transform scale-90">
           <img src={illustration} alt="ill" className="" />
