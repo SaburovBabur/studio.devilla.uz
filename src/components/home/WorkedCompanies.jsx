@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "@/@assets/devilla.svg";
-import brush from "@/@assets/@icons/brush.svg";
 import lock from "@/@assets/lock.svg";
 
 function WorkedCompanies() {

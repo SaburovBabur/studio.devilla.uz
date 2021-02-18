@@ -1,5 +1,4 @@
 import React from "react";
-import brush from "@/@assets/@icons/brush.svg";
 import logo from "@/@assets/devilla.svg";
 function Pot() {
   return (
