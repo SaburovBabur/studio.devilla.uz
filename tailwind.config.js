@@ -143,6 +143,8 @@ module.exports = {
       "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
       inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
       none: "none",
+
+      cover: "rgba(0, 0, 0, 0.08) 0px 0px 20px",
     },
     container: {},
     cursor: {
@@ -211,6 +213,7 @@ module.exports = {
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1rem" }],
       sm: ["0.875rem", { lineHeight: "1.25rem" }],
+      middle: ["0.95rem", { lineHeight: "1.5rem" }],
       base: ["1rem", { lineHeight: "1.5rem" }],
       lg: ["1.125rem", { lineHeight: "1.75rem" }],
       xl: ["1.25rem", { lineHeight: "1.75rem" }],
