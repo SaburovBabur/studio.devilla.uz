@@ -19,7 +19,7 @@ function SwipeBlock(props) {
         },
         // when window width is >= 480px
         375: {
-          slidesPerView: 2,
+          slidesPerView: 2.5,
           spaceBetween: 20,
         },
         600: {
