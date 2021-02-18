@@ -7,8 +7,8 @@ SwiperCore.use([Autoplay]);
 function SwipeBlock(props) {
   return (
     <Swiper
-      loop={true}
-      centeredSlides={true}
+      // loop={true}
+      // centeredSlides={true}
       autoplay={{ delay: 1500 }}
       style={{ padding: "1.5rem" }}
       breakpoints={{
