@@ -1,57 +1,61 @@
 import React from "react";
-import logo from "@/@assets/devilla.svg";
-import lock from "@/@assets/lock.svg";
 
 function WorkedCompanies() {
   return (
     <section className="px-5 md:px-24">
       <div className="py-12 | flex items-center justify-center">
         <div className="title flex flex-col items-center justify-center">
-          <h1 className="rounded-full p-6 px-12 text-4xl md:text-5xl inline-block | text-blutter | relative z-20">
-            Companies
+          <h1 className="rounded-full p-6 px-12 text-4xl inline-block | bg-clip-text bg-gradient-to-br from-blutter to-blue-500 text-transparent | relative z-20">
+            Biz bilan Ishlaganlar
           </h1>
-          <p className="w-12 h-2 rounded-lg bg-blutter text-center"></p>
+          <p className="w-12 h-2 rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-400 text-center"></p>
         </div>
       </div>
 
-      <div className="companies flex items-center justify-evenly mb-12">
-        <div className="company w-10   md:w-16">
-          <a href="#">
+      <div class="container px-8 mx-auto my-5 sm:px-12 lg:px-20">
+        <div class="grid items-center justify-center grid-cols-12 gap-y-8">
+          <div class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
             <img
-              src={logo}
-              alt="company"
-              className="company__logo w-10  md:w-16"
+              src="https://cdn.devdojo.com/tails/images/disney-plus.svg"
+              alt="Disney Plus"
+              class="block object-contain h-12"
             />
-          </a>
-        </div>
-        <div className="company w-10   md:w-16">
-          <a href="#">
+          </div>
+          <div class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
             <img
-              src={lock}
-              alt="company"
-              className="company__logo w-10  md:w-16"
+              src="https://cdn.devdojo.com/tails/images/google.svg"
+              alt="Google"
+              class="block object-contain h-9"
             />
-          </a>
-        </div>
-
-        <div className="company w-10   md:w-16">
-          <a href="#">
+          </div>
+          <div class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Apple_Computer_Logo_rainbow.svg/879px-Apple_Computer_Logo_rainbow.svg.png"
-              alt="company"
-              className="company__logo w-10  md:w-16"
+              src="https://cdn.devdojo.com/tails/images/hubspot.svg"
+              alt="Hubspot"
+              class="block object-contain h-9"
             />
-          </a>
-        </div>
-
-        <div className="company w-10   md:w-16">
-          <a href="#" className="company">
+          </div>
+          <div class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
             <img
-              src="https://epcenergy.uz/@assets/img/logo.jpg"
-              alt="company"
-              className="company__logo w-10  md:w-16 "
+              src="https://cdn.devdojo.com/tails/images/youtube.svg"
+              alt="Youtube"
+              class="block object-contain h-7 lg:h-8"
             />
-          </a>
+          </div>
+          <div class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-6 xl:col-span-2">
+            <img
+              src="https://cdn.devdojo.com/tails/images/slack.svg"
+              alt="Slack"
+              class="block object-contain h-9"
+            />
+          </div>
+          <div class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-6 xl:col-span-2">
+            <img
+              src="https://cdn.devdojo.com/tails/images/shopify.svg"
+              alt="Shopify"
+              class="block object-contain h-9"
+            />
+          </div>
         </div>
       </div>
     </section>

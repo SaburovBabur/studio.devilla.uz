@@ -114,10 +114,10 @@ function Technologies() {
     <section className="">
       <div className="py-12 | flex items-center justify-center">
         <div className="title flex flex-col items-center justify-center">
-          <h1 className="rounded-full p-6 px-12 text-4xl md:text-5xl inline-block | text-blutter | relative z-20">
-            Why We?
+          <h1 className="rounded-full p-6 px-12 text-4xl md:text-5xl inline-block | bg-clip-text bg-gradient-to-br from-blutter to-blue-500 text-transparent | relative z-20">
+            Bizning Texnologiyalar
           </h1>
-          <p className="w-12 h-2 rounded-lg bg-blutter text-center"></p>
+          <p className="w-12 h-2 rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-400 text-center"></p>
         </div>
       </div>
 

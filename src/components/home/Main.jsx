@@ -4,30 +4,32 @@ import illustration from "@/@assets/@img/illustration.png";
 
 function Main() {
   return (
-    <section className="get__started px-5 md:px-20 w-full | flex items-center justify-center overflow-x-hidden">
-      <div className="get__started__text md:w-5/12 flex flex-col items-center justify-center md:inline-block">
-        <h1 className="text-5xl leading-loose font-bold tracking-wide">
-          <span className="text-blutter">IT studio</span>
-        </h1>
-        <div className="get__started__illustartion | w-3/4 md:w-7/12 md:hidden transform scale-90">
+    <section class="w-full container mx-auto px-6 mb-12 antialiased bg-white select-none">
+      <div class="max-w-7xl flex items-center justify-center">
+        <div class="max-w-lg px-4 md:py-32 py-8 text-left md:max-w-none md:w-1/2">
+          <h1 class="text-2xl font-extrabold tracking-tight text-center md:text-left text-gray-900 leading-tightest md:leading-10 sm:leading-none md:text-5xl lg:text-6xl flex flex-col">
+            <span class="inline-block md:block">Tengsiz, Enterprise</span>
+            <span class="relative mt-2 text-transparent md:inline-block bg-clip-text bg-gradient-to-br from-blutter to-blue-500">
+              IT - xizmatlar
+            </span>
+          </h1>
+          <div className="get__started__illustartion | my-3 md:my-0 w-2/3 md:w-1/2 mx-auto md:hidden transform scale-90">
+            <img src={illustration} alt="ill" className="" />
+          </div>
+          <div class="mt-5 text-gray-500 md:my-12 md:max-w-lg text-center md:text-left lg:text-lg">
+            Simplifying the creation of landing pages, blog pages, application
+            pages and so much more!
+          </div>
+          <a
+            href="tel:+99897271449"
+            className="py-1 md:py-2 my-6 | mx-auto md:mx-0 w-2/3 md:w-1/3 | flex items-center justify-center | md:text-lg text-white |  rounded-full get__started__btn transform transition ease-in duration-100"
+          >
+            Qong'iroq
+          </a>
+        </div>
+        <div className="get__started__illustartion | hidden md:block |  w-1/2 transform scale-90">
           <img src={illustration} alt="ill" className="" />
         </div>
-
-        <p className="| text-lg md:text-2xl py-3 md:py-5 leading-loose font-thin | ">
-          Kichik biznesdan to <span className="font-bold">enterprise</span>
-          <br />
-          kompaniyalar uchun IT xizmatlar
-        </p>
-
-        <a
-          href="tel:+99897271449"
-          className="py-1 md:py-5 my-6 | w-2/3 | flex items-center justify-center |  | text-xl text-white |  rounded-full get__started__btn transform transition ease-in duration-100"
-        >
-          Qong'iroq
-        </a>
-      </div>
-      <div className="get__started__illustartion | hidden md:block |  w-7/12 transform scale-90">
-        <img src={illustration} alt="ill" className="" />
       </div>
     </section>
   );
