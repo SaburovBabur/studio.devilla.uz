@@ -1,16 +1,11 @@
 import React from "react";
 import logo from "@/@assets/devilla.svg";
+import Title from "@/components/Title.jsx";
+
 function Pot() {
   return (
     <section className="px-5 md:px-24">
-      <div className="py-12 | flex items-center justify-center">
-        <div className="title flex flex-col items-center justify-center">
-          <h1 className="rounded-full p-6 px-12 text-4xl md:text-5xl inline-block | bg-clip-text bg-gradient-to-br from-blutter to-blue-500 text-transparent | relative z-20">
-            Ishlarimiz
-          </h1>
-          <p className="w-12 h-2 rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-400 text-center"></p>
-        </div>
-      </div>
+      <Title name="Ishlarimiz" />
 
       <div className="div relative">
         <div

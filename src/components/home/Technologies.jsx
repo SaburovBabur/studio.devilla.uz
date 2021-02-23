@@ -22,6 +22,7 @@ import {
   laravel,
 } from "@/@assets/@technologies";
 import SwipeBlock from "./@blocks/SwipeBlock";
+import Title from "@/components/Title.jsx";
 
 function Technologies() {
   let frontendTechnologies = [
@@ -112,15 +113,9 @@ function Technologies() {
 
   return (
     <section className="">
-      <div className="py-12 | flex items-center justify-center">
-        <div className="title flex flex-col items-center justify-center">
-          <h1 className="rounded-full p-6 px-12 text-4xl md:text-5xl inline-block | bg-clip-text bg-gradient-to-br from-blutter to-blue-500 text-transparent | relative z-20">
-            Bizning Texnologiyalar
-          </h1>
-          <p className="w-12 h-2 rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-400 text-center"></p>
-        </div>
+      <div className="px-6">
+        <Title name="Texnologiyalar" />
       </div>
-
       <SwipeBlock>{frontendTechnologies}</SwipeBlock>
       <SwipeBlock>{backendTechnologies}</SwipeBlock>
     </section>

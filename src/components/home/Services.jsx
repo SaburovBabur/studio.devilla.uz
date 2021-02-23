@@ -1,23 +1,28 @@
 import React from "react";
 import ipad from "@/@assets/@img/ipad.png";
+import Title from "@/components/Title.jsx";
+
 function Services() {
   return (
-    <section class="w-full bg-white">
-      <div className="py-12 | flex items-center justify-center">
-        <div className="title flex flex-col items-center justify-center">
-          <h1 className="rounded-full p-6 px-12 text-4xl md:text-5xl inline-block | bg-clip-text bg-gradient-to-br from-blutter to-blue-500 text-transparent | relative z-20">
-            Services
-          </h1>
-          <p className="w-12 h-2 rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-400 text-center"></p>
-        </div>
-      </div>
+    <section class="w-full bg-white px-6">
+      <Title name="Services" />
 
-      <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
-        <div class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
-          <img
-            src="https://s3.amazonaws.com/www-inside-design/uploads/2017/03/23-free-device-mockups2.jpg"
-            class="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 "
-          />
+      <div class="box-border flex flex-col items-center content-center mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
+        {/* <div class="box-border relative w-full max-w-md px-3 mt-5 mb-4 -ml-5 bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10 rounded-lg">
+          <div className="ipad shadow-cover rounded-2xl overflow-hidden">
+            <img
+              src="https://s3.amazonaws.com/www-inside-design/uploads/2017/03/23-free-device-mockups2.jpg"
+              class="xl:pl-16 xl:pr-20 "
+            />
+          </div>
+        </div> */}
+        <div class="box-border relative w-full max-w-md mt-5 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
+          <div className="ipad rounded-2xl overflow-hidden">
+            <img
+              src="https://media.istockphoto.com/vectors/vector-clay-smart-phone-mockup-vector-id1176275556?k=6&m=1176275556&s=612x612&w=0&h=Xv0reI2TYkrbUQ1q4QXg0uCzUP2c0Jil2bshpDxqjTI="
+              class=""
+            />
+          </div>
         </div>
 
         <div class="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none">
@@ -50,7 +55,7 @@ function Services() {
           </ul>
         </div>
       </div>
-      <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:my-12 md:flex-row max-w-7xl lg:px-16">
+      <div class="box-border flex flex-col items-center content-center mx-auto leading-6 text-black border-0 border-gray-300 border-solid my-8 md:my-12 md:flex-row max-w-7xl lg:px-16">
         <div class="box-border w-full text-black border-solid md:w-1/2 md:pl-6 xl:pl-32">
           <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
             Websaytlar
@@ -81,18 +86,20 @@ function Services() {
           </ul>
         </div>
 
-        <div class="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
-          <div className="ipad shadow-cover rounded-2xl overflow-hidden">
+        <div class="box-border relative w-full max-w-md mt-5 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
+          <div className="ipad rounded-2xl overflow-hidden">
             <img src={ipad} class="" />
           </div>
         </div>
       </div>
-      <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
-        <div class="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
-          <img
-            src="https://miro.medium.com/max/800/1*DYkByB1foGvuksJvVlT1bA.png"
-            class="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 "
-          />
+      <div class="box-border flex flex-col items-center content-center mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
+        <div class="box-border relative w-full max-w-md mt-5 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
+          <div className="ipad rounded-2xl overflow-hidden">
+            <img
+              src="https://miro.medium.com/max/800/1*DYkByB1foGvuksJvVlT1bA.png"
+              class=""
+            />
+          </div>
         </div>
 
         <div class="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none">

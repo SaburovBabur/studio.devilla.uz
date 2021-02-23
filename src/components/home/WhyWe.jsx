@@ -5,6 +5,7 @@ import {
   GatsbyPerformance,
   GatsbyScale,
 } from "@/@assets/@icons";
+import Title from "@/components/Title.jsx";
 
 function WhyWe() {
   let services = [
@@ -36,14 +37,7 @@ function WhyWe() {
 
   return (
     <section className="px-5 md:px-24" style={{ backgroundColor: " #f9f9fc" }}>
-      <div className="py-12 | flex items-center justify-center">
-        <div className="title flex flex-col items-center justify-center">
-          <h1 className="rounded-full p-6 px-12 text-4xl md:text-5xl inline-block | bg-clip-text bg-gradient-to-br from-blutter to-blue-500 text-transparent | relative z-20">
-            Nega Biz?
-          </h1>
-          <p className="w-12 h-2 rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-400 text-center"></p>
-        </div>
-      </div>
+      <Title name="Nega biz?" />
 
       <div className="cards grid md:grid-cols-2 grid-cols-1 md:mx-12">
         {services.map((card) => {
