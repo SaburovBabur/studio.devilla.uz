@@ -4,7 +4,7 @@ import illustration from "@/@assets/@img/illustration.png";
 
 function Main() {
   return (
-    <section class="w-full container mx-auto px-6 my-6 antialiased bg-white select-none">
+    <section class="w-full container mx-auto px-6 my-12 antialiased bg-white select-none">
       <div class="max-w-7xl flex items-center justify-center">
         <div class="max-w-lg px-4 md:py-32 text-left md:max-w-none md:w-1/2">
           <h1 class="text-4xl font-extrabold tracking-tight text-left md:text-left text-gray-900 leading-tightest md:leading-10 sm:leading-none md:text-5xl lg:text-6xl flex flex-col">
